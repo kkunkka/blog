@@ -4,9 +4,12 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const announcementBarContent = `<a href="/typescript-full-stack-technology-trpc" target="_blank">Typescript 全栈最值得学习的技术栈 TRPC</a>`
+
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'Kkun kka',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -28,8 +31,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh',
+    locales: ['en', 'zh'],
   },
 
   presets: [
@@ -50,6 +53,10 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          blogSidebarTitle: '全部博文',
+          //在侧边栏显示近期博文, 默认为5
+          // blogSidebarCount: 0  //不显示侧边栏
+          // blogSidebarCount: 'ALL' //侧边栏显示所有博文
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -61,12 +68,16 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: 'announcementBar-3',
+        content: announcementBarContent,
+      },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Kkun Kka',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Kkuna Kka Site Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -74,9 +85,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: '文档',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '博客', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
