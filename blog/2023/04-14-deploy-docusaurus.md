@@ -1,6 +1,6 @@
 ---
 tags: [docusaurus, 建站]
-
+draft: true
 ---
 # 部署Docusaurus到Github Pages
 
