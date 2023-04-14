@@ -35,7 +35,7 @@ jobs:
     # If specified, run `pnpm install`
         run_install: false
     - name: install
-      run: pnpm i
+      run: pnpm i --no-frozen-lockfile
     - name: build
       run: pnpm build
     - name: Upload GitHub Pages artifact
