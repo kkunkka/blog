@@ -36,9 +36,9 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm i
-    - run: npm run build --if-present
+        cache: 'pnpm'
+    - run: pnpm i
+    - run: pnpm run build --if-present
     - name: Upload GitHub Pages artifact
       uses: actions/upload-pages-artifact@v1.0.8
       with:
