@@ -25,10 +25,10 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'pnpm'
-    - run: pnpm ci
-    - run: pnpm run build --if-present
-    - run: pnpm test
+        cache: 'npm'
+    - run: npm i
+    - run: npm run build --if-present
+    - run: npm test
     - name: Docusaurus v2 S3 Sync
   # You may pin to the exact commit or the version.
   # uses: brockneedscoffee/s3-docusaurus-sync-action@e676f502b96d9365da4fd3deaff3184ff1386eb9
