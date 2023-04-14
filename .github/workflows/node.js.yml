@@ -44,6 +44,6 @@ jobs:
     # Artifact name
         name: pages
     # Path of the directory containing the static assets.
-       # path: /
+        path: build/
     # Duration after which artifact will expire in days.
         #retention-days: 1
