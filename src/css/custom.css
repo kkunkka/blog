@@ -4,6 +4,20 @@
  * work well for content-centric websites.
  */
 
+ /* :root { */
+  /* #006dfe hsl(214deg, 100%, 60%); */
+  /* --ifm-color-primary: hsl(214deg, 100%, 60%);
+
+  --ifm-color-primary-dark: #119cc5;
+  --ifm-color-primary-darker: #05879d;
+  --ifm-color-primary-darkest: #007a87;
+  --ifm-color-primary-light: hsl(214deg, 100%, 75%);
+  --ifm-color-primary-lighter: #c6ebfc;
+  --ifm-color-primary-lightest: #f2fbff;
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base: "Raleway", "PingFang SC", "Microsoft Yahei",
+    sans-serif;
+} */
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #2e8555;
