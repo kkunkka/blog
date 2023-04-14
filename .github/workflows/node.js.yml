@@ -49,8 +49,8 @@ jobs:
         #retention-days: 1
     - name: Deploy GitHub Pages site
       uses: actions/deploy-pages@v2.0.0
-      # with:
-        #token: # default is ${{ github.token }}
+      with:
+        token: TOKEN
         #timeout: # optional, default is 600000
     # Maximum number of status report errors before cancelling a deployment (default: 10)
         #error_count: # optional, default is 10
