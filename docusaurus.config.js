@@ -4,7 +4,7 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-const announcementBarContent = `<a href="/typescript-full-stack-technology-trpc" target="_blank">Typescript 全栈最值得学习的技术栈 TRPC</a>`
+// const announcementBarContent = `<a href="/typescript-full-stack-technology-trpc" target="_blank">Typescript 全栈最值得学习的技术栈 TRPC</a>`
 
 
 /** @type {import('@docusaurus/types').Config} */
@@ -69,11 +69,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      announcementBar: {
-        id: 'announcementBar-3',
-        content: announcementBarContent,
-        isCloseable: false
-      },
+      // announcementBar: {
+        // id: 'announcementBar-3',
+        // content: announcementBarContent,
+        // isCloseable: false
+      // },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
