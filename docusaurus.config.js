@@ -11,7 +11,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Kkun Kka',
   tagline: '再次鼓起丧失的勇气',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/kkunkka.webp',
 
   // Set the production url of your site here
   url: 'https://kkunkka.github.io',
@@ -78,10 +78,10 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Kkun Kka',
-        logo: {
-          alt: 'Kkuna Kka Site Logo',
-          src: 'img/logo.svg',
-        },
+        // logo: {
+        //   alt: 'Kkuna Kka Site Logo',
+        //   src: 'img/logo.svg',
+        // },
         items: [
           {
             type: 'docSidebar',
@@ -91,7 +91,7 @@ const config = {
           },
           {to: 'blog', label: '博客', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/kkunkka/blog',
             label: 'GitHub',
             position: 'right',
           },
