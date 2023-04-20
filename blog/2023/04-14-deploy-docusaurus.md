@@ -6,6 +6,8 @@ draft: true
 
 本文介绍了如何使用 Github Action 部署 Docusaurus 到 Github Pages
 
+<!--truncate-->
+
 ---
 
 ## Github仓库设置
