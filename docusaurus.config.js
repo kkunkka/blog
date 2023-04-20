@@ -72,6 +72,8 @@ const config = {
       announcementBar: {
         id: 'myAnnouncementBar',
         content: announcementBarContent,
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
         isCloseable: true
       },
       // Replace with your project's social card
