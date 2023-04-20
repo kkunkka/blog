@@ -11,18 +11,19 @@ const announcementBarContent = `⭐️ 如果这个网站能帮助到你，欢�
 const config = {
   title: 'Kkun Kka',
   tagline: '再次鼓起丧失的勇气',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/kkunkka.webp',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://kkunkka.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/blog/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'kkunkka', // Usually your GitHub org/user name.
+  projectName: 'kkunkka.blog', // Usually your repo name.
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -44,15 +45,15 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           blogSidebarTitle: '全部博文',
           //在侧边栏显示近期博文, 默认为5
           // blogSidebarCount: 0  //不显示侧边栏
@@ -77,10 +78,10 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Kkun Kka',
-        logo: {
-          alt: 'Kkuna Kka Site Logo',
-          src: 'img/logo.svg',
-        },
+        // logo: {
+        //   alt: 'Kkuna Kka Site Logo',
+        //   src: 'img/logo.svg',
+        // },
         items: [
           {
             type: 'docSidebar',
@@ -88,9 +89,9 @@ const config = {
             position: 'left',
             label: '文档',
           },
-          {to: '/blog', label: '博客', position: 'left'},
+          {to: 'blog', label: '博客', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/kkunkka/blog',
             label: 'GitHub',
             position: 'right',
           },
