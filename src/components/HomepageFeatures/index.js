@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
-const FeatureList = [
+const OldFeatureList = [
   {
     title: 'Easy to Use',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
@@ -35,12 +35,43 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+const FeatureList = [
+  {
+    title: 'Support Me',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        Give me a star on <a href='https://github.com/kkunkka/blog' target='_blank'>GitHub</a>
+      </>
+    ),
+  },
+  {
+    title: 'About Me',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        Better to run than curse the road
+      </>
+    ),
+  },
+  {
+    title: 'Contact Me',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        Mail: kkunkka@zohomail.com
+        <br/>
+        WeChat: kkunkka
+      </>),
+  },
+]
+
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
+      {/* <div className="text--center"> */}
+      {/* <Svg className={styles.featureSvg} role="img" /> */}
+      {/* </div> */}
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
