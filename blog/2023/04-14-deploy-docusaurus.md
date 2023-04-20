@@ -1,6 +1,6 @@
 ---
-tags: [docusaurus, 建站]
-draft: true
+tags: [docusaurus, 建站, GitHub Pages, Github Actions]
+draft: false
 ---
 # 部署Docusaurus到Github Pages
 
