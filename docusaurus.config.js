@@ -4,7 +4,7 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-const announcementBarContent = `<a href="/typescript-full-stack-technology-trpc" target="_blank">Typescript 全栈最值得学习的技术栈 TRPC</a>`
+const announcementBarContent = `⭐️ 如果这个网站能帮助到你，欢迎给一个star支持作者 <a href="https://github.com/kkunkka/blog" target="_blank">GitHub</a>`
 
 
 /** @type {import('@docusaurus/types').Config} */
@@ -69,7 +69,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       announcementBar: {
-        id: 'announcementBar-3',
+        id: 'myAnnouncementBar',
         content: announcementBarContent,
         isCloseable: false
       },
