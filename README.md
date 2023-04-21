@@ -1,6 +1,6 @@
 # 个人博客
 
-> built using [🦖Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+> built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ### 如何使用?
 
