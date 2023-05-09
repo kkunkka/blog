@@ -91,7 +91,8 @@ const config = {
             position: 'left',
             label: '文档',
           },
-          {to: 'blog', label: '博客', position: 'left'},
+          { to: 'blog', label: '博客', position: 'left' },
+          { to: 'category', label: '导航', position: 'right' },
           {
             href: 'https://github.com/kkunkka/blog',
             label: 'GitHub',

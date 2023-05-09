@@ -1,0 +1,28 @@
+.sidebar {
+	/* background: #000; */
+  max-height: calc(100vh - (var(--ifm-navbar-height) + 2rem));
+	position: sticky;
+	overflow-y: auto;
+	text-align: center;
+	justify-content: center;
+	top: calc(var(--ifm-navbar-height) + 2rem);
+}
+
+.sidebarItem {
+	margin-top: 1rem;
+}
+
+.categoryCard {
+	margin: 1rem;
+}
+
+.card {
+	border: 1px solid rgb(204 204 204 / 50%);
+	border-radius: 8px;
+	transition: all 0.5s ease-in-out; /* 过渡时间为0.5秒，使用缓入缓出效果 */
+}
+
+.card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 10px 20px -10px rgb(0 0 0 / 20%);
+}
