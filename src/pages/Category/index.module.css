@@ -1,28 +1,49 @@
+/*  侧边栏 begin*/
 .sidebar {
-	/* background: #000; */
   max-height: calc(100vh - (var(--ifm-navbar-height) + 2rem));
-	position: sticky;
+  height: calc(100vh - (var(--ifm-navbar-height) + 2rem));
+	position: fixed;
 	overflow-y: auto;
-	text-align: center;
-	justify-content: center;
-	top: calc(var(--ifm-navbar-height) + 2rem);
+	align-items: center;
+	display: flex;
 }
 
 .sidebarItem {
 	margin-top: 1rem;
 }
 
+@media (max-width: 996px) {
+	.sidebar {
+		display: none;
+	}
+}
+/* 侧边栏end */
+
+.categoryCardList {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .categoryCard {
 	margin: 1rem;
+	width: 250px;
 }
 
 .card {
+	padding: 1rem;
 	border: 1px solid rgb(204 204 204 / 50%);
 	border-radius: 8px;
-	transition: all 0.5s ease-in-out; /* 过渡时间为0.5秒，使用缓入缓出效果 */
+	transition: all 0.3s ease-in-out;
+	/* 过渡时间为0.5秒，使用缓入缓出效果 */
 }
 
 .card:hover {
 	transform: translateY(-5px);
 	box-shadow: 0 10px 20px -10px rgb(0 0 0 / 20%);
+}
+
+.cardBody {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }

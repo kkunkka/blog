@@ -8,10 +8,12 @@ import style from './index.module.css'
 function CategoryCard(props) {
 	return <>
 		<div className={style.card}>
-			<div className="card_header">
-				<h4>{props.resource.name}</h4>
-			</div>
-			<div className='card_body'>{props.resource.describe}</div>
+			<Link isNavLink href={props.resource.href} style={{textDecoration:'none'}}>
+				<div className="card_header">
+					<h4>{props.resource.name}</h4>
+				</div>
+				<div className={style.cardBody} title={props.resource.describe}>{props.resource.describe}</div>
+			</Link>
 		</div>
 	</>
 }
@@ -19,11 +21,13 @@ function CategoryCard(props) {
 function CategoryNav() {
 	return <>
 		<div className={style.sidebar}>
-			{resource.map(res => (
-				<div key={res.name} className={style.sidebarItem}>
-					<a href={`#${res.name}`}>{res.name}</a>
-				</div>
-			))}
+			<div style={{ display: 'block' }}>
+				{resource.map(res => (
+					<div key={res.name} >
+						<a href={`#${res.name}`} className={style.sidebarItem}>{res.name}</a>
+					</div>
+				))}
+			</div>
 		</div>
 	</>
 }
@@ -39,7 +43,7 @@ function CategoryList() {
 							<Link isNavLink href={`#${res.name}`} title={res.name}></Link>
 						</h2>
 					</div>
-					<section style={{ display: 'flex' }}>
+					<section style={{ display: 'flex' }} className={style.categoryCardList}>
 						{res.resources.map(r => (
 							<div key={r.name} className={style.categoryCard}>
 								<CategoryCard resource={r} />
