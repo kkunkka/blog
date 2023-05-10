@@ -17,6 +17,11 @@ const resource = [
 				describe: '国内使用网站',
 				href: 'https://chat.jinshutuan.com/'
 			},
+			{
+				name: 'chart gpt',
+				describe: '根据文字生成统计图表',
+				href: 'https://www.chartgpt.dev/'
+			},
 		]
 	},
 	{
