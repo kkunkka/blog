@@ -1,6 +1,10 @@
 .passwdParent {
-	height: 100vh;
-	width: 100%;
+	display: flex;
+	height: calc(100vh - (var(--ifm-navbar-height) + 2rem));
 	justify-content: center;
 	align-items: center;
+}
+
+input[type="checkbox"]:checked+label::before {
+	background-color: green;
 }
