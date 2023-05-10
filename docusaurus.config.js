@@ -80,6 +80,7 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Kkun Kka',
+        hideOnScroll: true, // 往下滚动页面时自动隐藏导航栏
         // logo: {
         //   alt: 'Kkuna Kka Site Logo',
         //   src: 'img/logo.svg',
@@ -92,6 +93,12 @@ const config = {
             label: '文档',
           },
           { to: 'blog', label: '博客', position: 'left' },
+          {
+            type: 'dropdown', label: '工具', position: 'right',
+            items: [
+              { to: 'tool/passwd', label: '密码生成' }
+            ]
+          },
           { to: 'category', label: '导航', position: 'right' },
           {
             href: 'https://github.com/kkunkka/blog',
