@@ -25,8 +25,13 @@ const resource = [
 		]
 	},
 	{
-		name: 'Git',
+		name: '技术',
 		resources: [
+			{
+				name: '设计模式',
+				describe: '图文并茂的设计模式学习网站',
+				href: 'https://refactoringguru.cn/design-patterns'
+			},
 			{
 				name: 'Github',
 				describe: '最大的软件托管平台',
