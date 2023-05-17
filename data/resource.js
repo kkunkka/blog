@@ -5,7 +5,7 @@ const resource = [
 			{
 				name: 'zoho mail',
 				describe: 'zoho 邮箱',
-				href: 'https://accounts.zoho.com'
+				href: 'https://mail.zoho.com/zm/'
 			},
 		]
 	},
