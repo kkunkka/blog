@@ -22,6 +22,11 @@ const resource = [
 				describe: '根据文字生成统计图表',
 				href: 'https://www.chartgpt.dev/'
 			},
+			{
+				name: 'chat gpt 列表',
+				describe: '众多chat gpt 镜像站点',
+				href: 'https://github.com/xx025/carrot/'
+			}
 		]
 	},
 	{
