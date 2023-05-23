@@ -61,7 +61,12 @@ const resource = [
 				name: 'Vue',
 				describe: '用于构建用户界面的 JavaScript 框架',
 				href: 'https://cn.vuejs.org/'
-			}
+			},
+			{
+				name: 'shadcn ui',
+				describe: '精美的React 组件库',
+				href: 'https://ui.shadcn.com/'
+			},
 		]
 	},
 	{
