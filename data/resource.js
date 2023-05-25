@@ -93,9 +93,9 @@ const resource = [
 				href: 'https://springdoc.cn/'
 			},
 			{
-				name: '',
-				describe: '',
-				href: ''
+				name: 'Go语言圣经',
+				describe: '中文版',
+				href: 'https://gopl-zh.github.io/'
 			}
 		]
 	},
