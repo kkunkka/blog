@@ -26,6 +26,11 @@ const resource = [
 				name: 'chat gpt 列表',
 				describe: '众多chat gpt 镜像站点',
 				href: 'https://github.com/xx025/carrot/'
+			},
+			{
+				name: 'Ai 研究所',
+				describe: '国内外AI工具资讯',
+				href: 'https://www.aiyjs.com/'
 			}
 		]
 	},
@@ -86,6 +91,11 @@ const resource = [
 				name: 'Spring doc cn',
 				describe: '中文spring文档',
 				href: 'https://springdoc.cn/'
+			},
+			{
+				name: '',
+				describe: '',
+				href: ''
 			}
 		]
 	},
@@ -111,6 +121,11 @@ const resource = [
 				name: '一键抠图',
 				describe: '在线免费抠图',
 				href: 'https://remove.photos/zh-cn'
+			},
+			{
+				name: '闪击PPT',
+				describe: '快速制作ppt',
+				href: 'https://ppt.sankki.com/'
 			}
 		]
 	},
