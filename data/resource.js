@@ -10,13 +10,18 @@ const resource = [
 		]
 	},
 	{
-		name: 'Chat GPT',
+		name: 'AI',
 		resources: [
 			{
 				name: 'chat gpt 国内',
 				describe: '国内使用网站',
 				href: 'https://chat.jinshutuan.com/'
 			},
+			{
+				name: 'Bing Ai 国内镜像',
+				describe: '国内使用Bing Ai',
+				href: 'https://bing.vcanbb.top/'
+			}
 			{
 				name: 'chart gpt',
 				describe: '根据文字生成统计图表',
