@@ -21,7 +21,7 @@ const resource = [
 				name: 'Bing Ai 国内镜像',
 				describe: '国内使用Bing Ai',
 				href: 'https://bing.vcanbb.top/'
-			}
+			},
 			{
 				name: 'chart gpt',
 				describe: '根据文字生成统计图表',
