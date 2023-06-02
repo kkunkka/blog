@@ -77,6 +77,11 @@ const resource = [
 				describe: '精美的React 组件库',
 				href: 'https://ui.shadcn.com/'
 			},
+			{
+				name: 'unocss',
+				describe: '原子级css引擎',
+				href: 'https://unocss.dev/'
+			},
 		]
 	},
 	{
