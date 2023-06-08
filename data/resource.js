@@ -140,12 +140,17 @@ const resource = [
 		]
 	},
 	{
-		name: '导航',
+		name: '资源',
 		resources: [
 			{
 				name: '小众技术',
 				describe: '各种资源的聚合网站',
 				href: 'https://www.xiaozhongjishu.com/',
+			},
+			{
+				name: '天翼小站',
+				describe: '天意网盘资源网站',
+				href: 'https://yun.hei521.cn/',
 			},
 		]
 	},
