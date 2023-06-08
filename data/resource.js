@@ -140,6 +140,16 @@ const resource = [
 		]
 	},
 	{
+		name: '导航',
+		resources: [
+			{
+				name: '小众技术',
+				describe: '各种资源的聚合网站',
+				href: 'https://www.xiaozhongjishu.com/',
+			},
+		]
+	},
+	{
 		name: '设计',
 		resources: [
 			{
