@@ -1,6 +1,5 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -66,6 +65,20 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      'content-docs',
+        /** @type {import('@docusaurus/plugin-content-docs').Options} */
+      {
+        id: 'navigation',
+        path: 'navigation',
+        routeBasePath: 'navigation',
+        sidebarPath: require.resolve('./sidebarsNavigation.js'),
+        // ... other options
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -100,6 +113,7 @@ const config = {
             ]
           },
           { to: 'category', label: '导航', position: 'right' },
+          { to: '/navigation', label: '新导航', position: 'right' },
           {
             href: 'https://github.com/kkunkka/blog',
             label: 'GitHub',
