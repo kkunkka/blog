@@ -60,8 +60,6 @@ const FeatureList = [
     description: (
       <>
         Mail: kkunkka@zohomail.com
-        <br/>
-        WeChat: kkunkka
       </>),
   },
 ]
