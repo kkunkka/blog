@@ -113,7 +113,6 @@ const config = {
             ]
           },
           { to: 'category', label: '导航', position: 'right' },
-          { to: '/navigation', label: '新导航', position: 'right' },
           {
             href: 'https://github.com/kkunkka/blog',
             label: 'GitHub',
