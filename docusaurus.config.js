@@ -1,10 +1,10 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+import { themes } from 'prism-react-renderer'
+const lightCodeTheme = themes.dracula;
+const darkCodeTheme = themes.github;
 
 const announcementBarContent = `⭐️ 如果这个网站能帮助到你，欢迎给一个star支持作者 <a href="https://github.com/kkunkka/blog" target="_blank">GitHub</a>`
-
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -68,7 +68,7 @@ const config = {
   plugins: [
     [
       'content-docs',
-        /** @type {import('@docusaurus/plugin-content-docs').Options} */
+      /** @type {import('@docusaurus/plugin-content-docs').Options} */
       {
         id: 'navigation',
         path: 'navigation',
