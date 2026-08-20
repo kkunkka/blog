@@ -1,5 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 // 自定义页脚：还原旧 Hugo 站点的备案信息（图标 + 浙公网安备号 + 浙ICP备号）
@@ -7,6 +8,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 export default function Footer() {
   const { siteConfig } = useDocusaurusContext();
   const year = new Date().getFullYear();
+  const beianIcon = useBaseUrl('/images/beian.png');
 
   return (
     <footer className={clsx('footer', 'footer--dark')}>
@@ -35,7 +37,7 @@ export default function Footer() {
             }}
           >
             <img
-              src="/images/备案图标.png"
+              src={beianIcon}
               alt="备案图标"
               style={{ height: '16px', verticalAlign: 'middle' }}
             />
