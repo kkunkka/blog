@@ -112,7 +112,7 @@ const config = {
               { to: 'tool/passwd', label: '密码生成' }
             ]
           },
-          { to: 'category', label: '导航', position: 'right' },
+          { to: '/Category', label: '导航', position: 'right' },
           {
             href: 'https://github.com/kkunkka/blog',
             label: 'GitHub',
