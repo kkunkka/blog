@@ -37,10 +37,6 @@ jobs:
           version: latest
           run_install: false
       - name: insatll
-        env:
-          # 覆盖默认配置，使其部署到 GitHub Pages 预览地址(kkunkka.github.io/blog/)
-          DOCUSAURUS_URL: 'https://kkunkka.github.io'
-          DOCUSAURUS_BASE_URL: '/blog/'
         run: |
           pnpm install --frozen-lockfile
           pnpm build

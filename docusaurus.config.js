@@ -12,12 +12,11 @@ const config = {
   tagline: '再次鼓起丧失的勇气',
   favicon: 'img/kkunkka.webp',
 
-  // 默认按 VPS 主站(kkunkka.site, 根路径)配置；
-  // GitHub Pages 预览部署时由 CI 通过环境变量覆盖(见 .github/workflows/docusaurus.yml)
-  url: process.env.DOCUSAURUS_URL || 'https://kkunkka.site',
+  // Set the production url of your site here
+  url: 'https://kkunkka.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: process.env.DOCUSAURUS_BASE_URL || '/',
+  baseUrl: '/blog/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
